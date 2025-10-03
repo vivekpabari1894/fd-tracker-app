@@ -1,0 +1,18 @@
+// App-specific configuration
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.example.fdtracker"
+        minSdk 21
+        // ... app-specific settings
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.9.0'
+}
